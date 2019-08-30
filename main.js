@@ -69,18 +69,18 @@ $(document).ready(function(){
         console.log('leave')
     })
     
-    // Number Listener
+    // Number(Date) Listener
     $('#number').mouseenter(() => {
         $('#number')
         .addClass('background')
-        .html(`<h5 class="card-title" style="text-align: center;color:white;">Number Facts App</h5>
+        .html(`<h5 class="card-title" style="text-align: center;color:white;">Date Facts App</h5>
         <p class="card-text pt-5 pl-3 pr-3"style="color:white;">A Website showing interesting facts about entered dates, that it is getting from an API.</p>
         <ul style="margin-top:69px;">
         <li style="display:inline" >
-        <a href="https://github.com/NenadPanicc/Number-facts-app" target="_blank""><img src="github-logo.png" class="m-5" width="50px" height="50px" ></a>
+        <a href="https://github.com/NenadPanicc/Date-facts-app" target="_blank""><img src="github-logo.png" class="m-5" width="50px" height="50px" ></a>
         </li>
         <li style="display:inline">
-        <a href="https://nenadpanicc.github.io/Number-facts-app/" target="_blank"><img src="live.png" class="m-4" width="50px" height="50px" ></a>
+        <a href="https://nenadpanicc.github.io/Date-facts-app/" target="_blank"><img src="live.png" class="m-4" width="50px" height="50px" ></a>
         </li>
     </ul>`)
         console.log('enter')
