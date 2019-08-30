@@ -1,0 +1,163 @@
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  /* OBJECT IMAGE */
+#laptop {
+    margin-top:150px;
+    width:550px;
+    height:550px;
+  }
+  /* NAVBAR */
+.navbar, .navbar-expand-lg, .navbar-light  {
+    font-weight: bold;
+    font-size:20px;
+    opacity:1;
+    animation-name:navbar;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position:relative;
+    animation-timing-function: ease-out;
+    
+}
+/* SMAALL SPEECH */
+.heading {
+    margin-top:20%;
+    margin-left:23%;
+    max-width: 350px;
+    opacity:0.7;
+    animation-name:heading;
+    animation-duration: 1s;
+    animation-delay:1s;
+    animation-fill-mode: forwards;
+    position:relative;
+    opacity:0;
+}
+/* PROJECTS DIVIDER */
+.projects {
+    padding-left:30px;
+    font-size:30px;
+}
+/* MY NAME TEXT */
+#name {
+    padding-top:15%;
+    font-weight:bolder;
+    line-height: 105px;
+    font-size:130px;
+    line-height: -1.4rem;
+    animation-name:name;
+    animation-duration: 1.5s;
+    animation-delay:1.5s;
+    animation-fill-mode: forwards;
+    position:relative;
+    opacity:0;
+}
+/* PROJECT CARDS */
+.card, .card-img {
+    border-radius:5%;
+    border:none;
+}
+/* ON CARD HOVER BACKGROUND */
+.background {
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    transition-property: all;
+    transition-duration: 1s;
+        /* transition-delay: 2s, 4s; */
+    transition-timing-function: ease-in;
+}
+/* PROJECT CARDS */
+#interactive {
+    animation-name:interactive;
+    animation-duration:1s;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+    position:relative;
+}
+#signup {
+    animation-name:signup;
+    animation-duration:1s;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+    position:relative;
+}
+#todo {
+    animation-name:todo;
+    animation-duration:1s;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+    position:relative;
+}
+#booklist {
+    animation-name:booklist;
+    animation-duration:1s;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+    position:relative;
+}
+#number {
+    animation-name:number;
+    animation-duration:1s;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+    position:relative; 
+}
+/* MY PHOTO */
+#me {
+    border-radius:50%;
+    width:400px;
+    height:400px;
+}
+.navbar {
+    height:100px;
+}
+.hello {
+    font-size:36px;
+}
+/* OBJECT IMAGE */
+#laptop {
+    animation-name:laptop;
+    animation-duration:1s;
+    animation-delay:1.5s;
+    animation-fill-mode: forwards;
+    position:relative; 
+    opacity:0;
+}
+/* ANIMATION */
+@keyframes navbar {
+    0% {top:-200px;}
+    100% {top:0px;position:sticky;}
+}
+@keyframes heading {
+    0% {left:-400px;}
+    100% {left:0px;opacity:1}
+}
+@keyframes name {
+    0% {left:-500px;}
+    100% {left:0px;opacity:1}
+}
+@keyframes laptop {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+/* MEDIA QUERY */
+@media (max-width:1000px){
+    #home-btn, #projects-btn,
+    #about-btn, #contact-btn {
+        display:none;
+    }
+    #instagram, #github, #linkedin {
+        position:relative;
+        bottom:75px;
+    }
+    #name {
+        margin-top:200px;
+        font-size:100px;
+    }
+    #laptop {
+        display:none;
+    }
+}
