@@ -131,7 +131,7 @@ $(document).ready(function(){
     </ul>`)
         console.log('enter')
     })
-    $('#igithub-user').mouseleave(() => {
+    $('#github-user').mouseleave(() => {
         $('#github-user')
         .removeClass('background')
         .empty()
