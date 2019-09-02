@@ -131,11 +131,11 @@ $(document).ready(function(){
     </ul>`)
         console.log('enter')
     })
-    $('#interactive').mouseleave(() => {
-        $('#interactive')
+    $('#igithub-user').mouseleave(() => {
+        $('#github-user')
         .removeClass('background')
         .empty()
-        .html(' <img src="interactivemap.png"class="card-img"height="400px;"style="opacity:0.8">')
+        .html(' <img src="github user finder photo.png"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
     })
 })
