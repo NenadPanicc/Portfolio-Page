@@ -93,4 +93,27 @@ $(document).ready(function(){
         .html(' <img src="techscroll.png"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
     })
+    // News
+    $('#news').mouseenter(() => {
+        $('#news')
+        .addClass('background')
+        .html(`<h5 class="card-title" style="text-align: center;color:white;">Daily news</h5>
+        <p class="card-text pt-5 pl-3 pr-3"style="color:white;">A news website made possible with the NY Times API.</p>
+        <ul style="margin-top:69px;">
+        <li style="display:inline" >
+        <a href="https://github.com/NenadPanicc/Daily-News" target="_blank""><img src="github-logo.png" class="m-5" width="50px" height="50px" ></a>
+        </li>
+        <li style="display:inline">
+        <a href="https://nenadpanicc.github.io/Daily-News/"target="_blank"><img src="live.png" class="m-4" width="50px" height="50px" ></a>
+        </li>
+    </ul>`)
+        console.log('enter')
+    })
+    $('#news').mouseleave(() => {
+        $('#news')
+        .removeClass('background')
+        .empty()
+        .html(' <img src="news.png"class="card-img"height="400px;"style="opacity:0.8">')
+        console.log('leave')
+    })
 })
