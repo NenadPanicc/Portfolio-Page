@@ -4,6 +4,7 @@ $(document).ready(function(){
     $('#signup').mouseenter(() => {
         $('#signup')
         .addClass('background')
+        .css({transform: "scale(1.1, 1.1)"})
         .html(`<h5 class="card-title" style="text-align: center;color:white;">Sign up, Log in Screen</h5>
         <p class="card-text pt-5 pl-3 pr-3"style="color:white;">A fully functional welcoming sign up and log in screen</p>
         <ul style="margin-top:115px;">
@@ -19,6 +20,7 @@ $(document).ready(function(){
     $('#signup').mouseleave(() => {
         $('#signup')
         .removeClass('background')
+        .css({transform: "scale(1, 1)"})
         .empty()
         .html(' <img src="signup.png"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
@@ -28,6 +30,7 @@ $(document).ready(function(){
       $('#interactive').mouseenter(() => {
         $('#interactive')
         .addClass('background')
+        .css({transform: "scale(1.1, 1.1)"})
         .html(`<h5 class="card-title" style="text-align: center;color:white;">Interactive Map</h5>
         <p class="card-text pt-5 pl-3 pr-3"style="color:white;">A simple interactive map focusing on parts of a city when hovering over a specific nav link.</p>
         <ul style="margin-top:69px;">
@@ -43,6 +46,7 @@ $(document).ready(function(){
     $('#interactive').mouseleave(() => {
         $('#interactive')
         .removeClass('background')
+        .css({transform: "scale(1, 1)"})
         .empty()
         .html(' <img src="interactivemap.png"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
@@ -51,6 +55,7 @@ $(document).ready(function(){
     $('#github-user').mouseenter(() => {
         $('#github-user')
         .addClass('background')
+        .css({transform: "scale(1.1, 1.1)"})
         .html(`<h5 class="card-title" style="text-align: center;color:white;">GitHub User Finder</h5>
         <p class="card-text pt-5 pl-3 pr-3"style="color:white;">A website that helps you find any GitHub user and see some information about them.</p>
         <ul style="margin-top:69px;">
@@ -66,6 +71,7 @@ $(document).ready(function(){
     $('#github-user').mouseleave(() => {
         $('#github-user')
         .removeClass('background')
+        .css({transform: "scale(1, 1)"})
         .empty()
         .html(' <img src="github user finder photo.png"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
@@ -74,6 +80,7 @@ $(document).ready(function(){
     $('#techscroll').mouseenter(() => {
         $('#techscroll')
         .addClass('background')
+        .css({transform: "scale(1.1, 1.1)"})
         .html(`<h5 class="card-title" style="text-align: center;color:white;">TechScroll</h5>
         <p class="card-text pt-5 pl-3 pr-3"style="color:white;">A stylish and elegant product presentation website.</p>
         <ul style="margin-top:69px;">
@@ -89,6 +96,7 @@ $(document).ready(function(){
     $('#techscroll').mouseleave(() => {
         $('#techscroll')
         .removeClass('background')
+        .css({transform: "scale(1, 1)"})
         .empty()
         .html(' <img src="techscroll.png"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
@@ -97,6 +105,7 @@ $(document).ready(function(){
     $('#news').mouseenter(() => {
         $('#news')
         .addClass('background')
+        .css({transform: "scale(1.1, 1.1)"})
         .html(`<h5 class="card-title" style="text-align: center;color:white;">Daily news</h5>
         <p class="card-text pt-5 pl-3 pr-3"style="color:white;">A news website made possible with the NY Times API.</p>
         <ul style="margin-top:69px;">
@@ -112,6 +121,7 @@ $(document).ready(function(){
     $('#news').mouseleave(() => {
         $('#news')
         .removeClass('background')
+        .css({transform: "scale(1, 1)"})
         .empty()
         .html(' <img src="news.png"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
