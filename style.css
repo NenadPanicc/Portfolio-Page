@@ -1,7 +1,12 @@
 body {
     background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-size: 400% 400%;
+    background-image: linear-gradient(62deg, #8EC5FC,  #E0C3FC, rgb(190, 125, 252) ) ;
     font-family: 'Lexend Deca', sans-serif;
+	animation-name: body-background;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+    animation-timing-function: ease;
 }
 html {
     scroll-behavior: smooth;
@@ -68,6 +73,15 @@ html {
     transition-duration: 1s;
         /* transition-delay: 2s, 4s; */
     transition-timing-function: ease-in;
+}
+/*NAVIGATION BAR*/
+#navigation {
+    background-size: 400% 400%;
+    background-image: linear-gradient(62deg, #8EC5FC,  #E0C3FC, rgb(190, 125, 252) );
+	animation-name: nav-background;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+    animation-timing-function: ease;
 }
 /* PROJECT CARDS */
 #interactive {
@@ -143,6 +157,30 @@ html {
     0% {opacity:0;}
     100% {opacity:1;}
 }
+/*BODY BACKGROUND ANIMATION*/
+@keyframes body-background {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* NAVIGATION BACKGROUND ANIMATION*/
+@keyframes nav-background {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 /* MEDIA QUERY */
 @media (max-width:1000px){
     #home-btn, #projects-btn,
@@ -165,3 +203,4 @@ html {
         height:250px;
     }
 }
+
