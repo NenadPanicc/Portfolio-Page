@@ -148,7 +148,7 @@ $(document).ready(function(){
         .removeClass('background')
         .css({transform: "scale(1, 1)"})
         .empty()
-        .html(' <img src="pizza-bar.png"class="card-img"height="400px;"style="opacity:0.8">')
+        .html(' <img src="pizza-bar.PNG"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
     })
 })
