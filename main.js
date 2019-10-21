@@ -126,4 +126,29 @@ $(document).ready(function(){
         .html(' <img src="news.png"class="card-img"height="400px;"style="opacity:0.8">')
         console.log('leave')
     })
+    //Pizza bar
+    $('#pizza-bar').mouseenter(() => {
+        $('#pizza-bar')
+        .addClass('background')
+        .css({transform: "scale(1.1, 1.1)"})
+        .html(`<h5 class="card-title" style="text-align: center;color:white;">Pizza place</h5>
+        <p class="card-text pt-5 pl-3 pr-3"style="color:white;">A pizza restaurant web presentation</p>
+        <ul style="margin-top:69px;">
+        <li style="display:inline" >
+        <a href="https://github.com/NenadPanicc/Pizza-restaurant" target="_blank""><img src="github-logo.png" class="m-5" width="50px" height="50px" ></a>
+        </li>
+        <li style="display:inline">
+        <a href="https://nenadpanicc.github.io/Pizza-restaurant/#"target="_blank"><img src="live.png" class="m-4" width="50px" height="50px" ></a>
+        </li>
+    </ul>`)
+        console.log('enter')
+    })
+    $('#pizza-bar').mouseleave(() => {
+        $('#pizza-bar')
+        .removeClass('background')
+        .css({transform: "scale(1, 1)"})
+        .empty()
+        .html(' <img src="pizza-bar.png"class="card-img"height="400px;"style="opacity:0.8">')
+        console.log('leave')
+    })
 })
