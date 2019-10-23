@@ -18,6 +18,7 @@ html {
     height:550px;
   }
   /* NAVBAR */
+
 .navbar, .navbar-expand-lg, .navbar-light  {
     font-weight: bold;
     font-size:20px;
@@ -44,9 +45,16 @@ html {
 }
 /* PROJECTS DIVIDER */
 .projects {
-    padding-left:30px;
+    padding-left:20px;
     font-size:30px;
 }
+/*MAIN PROJECTS CONTAINER*/
+
+.main {
+    filter: blur(4px);
+    transform:rotate(-5deg)
+}
+
 /* MY NAME TEXT */
 #name {
     padding-top:15%;
@@ -62,8 +70,15 @@ html {
     opacity:0;
 }
 /* PROJECT CARDS */
+.row {
+    margin:auto;
+    max-width:1280px;
+}
+.card{
+    margin:-10px;
+}
 .card, .card-img {
-    border-radius:5%;
+    background:white;
     border:none;
 }
 /* ON CARD HOVER BACKGROUND */
@@ -71,6 +86,7 @@ html {
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     transition-property: all;
     transition-duration: 1s;
+    height:400px;
         /* transition-delay: 2s, 4s; */
     transition-timing-function: ease-in;
 }
@@ -203,4 +219,69 @@ html {
         height:250px;
     }
 }
-
+/*iphone 6/7/8*/
+@media  (max-width:375px) and (max-height:667px){
+    #skills-row {
+        margin-left:35px;
+    }
+    .list-group {
+        margin-bottom:30px;
+    }
+}
+/*IPHONE X*/
+@media  (max-width:375px) {
+    #skills-row {
+        margin-left:35px;
+    }
+    .list-group {
+        margin-bottom:30px;
+    }
+}
+/*iphone 6/7/8 plus*/
+@media (min-width:380px) and (max-width:414px) {
+    #me {
+        margin-left:40px;
+    }
+    h1 {
+        margin-left:-40px;
+    }
+    #skills-row {
+        margin-left:55px;
+    }
+    .list-group {
+        margin-bottom:30px;
+    }
+}
+/*iPad*/
+@media (max-width:768px) {
+    .navbar {
+        margin:auto;
+        width:80%;
+    }
+    #me {
+        margin-left:40px;
+        transform: scale(1.2);
+    }
+    h1 {
+        margin-left:-50px;
+    }
+    h3 {
+        margin-left:30px;
+    }
+    #skills-row {
+        margin-left:-40px;
+        transform: scale(0.7);
+    }
+    #projects {
+        margin-left:30px;
+    }
+    .project-row {
+        max-width:600px;
+    }
+    .card-img {
+        height:200px;
+    }
+    #contact {
+        margin-left:70px;
+    }
+}
