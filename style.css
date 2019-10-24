@@ -137,9 +137,9 @@ html {
 }
 /* MY PHOTO */
 #me {
-    border-radius:50%;
+    border-radius:15%;
     width:400px;
-    height:400px;
+    height:450px;
 }
 .navbar {
     height:100px;
@@ -156,6 +156,7 @@ html {
     position:relative; 
     opacity:0;
 }
+
 /* ANIMATION */
 @keyframes navbar {
     0% {top:-200px;}
