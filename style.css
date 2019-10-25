@@ -79,16 +79,10 @@ html {
 }
 .card, .card-img {
     background:white;
-    border:none;
+    
 }
-/* ON CARD HOVER BACKGROUND */
-.background {
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    transition-property: all;
-    transition-duration: 1s;
-    height:400px;
-        /* transition-delay: 2s, 4s; */
-    transition-timing-function: ease-in;
+.card-text, .card-title {
+    text-shadow: #333 1px 0 10px;
 }
 /*NAVIGATION BAR*/
 #navigation {
