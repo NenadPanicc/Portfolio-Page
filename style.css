@@ -14,7 +14,6 @@
   html, body {
     background-image:url(javascriptbanner.png);
     background-attachment: fixed;
-    background-repeat: no-repeat;
     height: 100%;
     color:white;
   }
@@ -29,6 +28,11 @@
    min-height: 100%;
     color:white;
   }
+  .shadow {
+    border-bottom:1px solid  #ff7315 ;
+    padding:30px;
+  }
+  
   #welcome-text {
     text-align:center;
     margin-top:20%;
