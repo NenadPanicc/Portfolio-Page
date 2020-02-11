@@ -4,7 +4,7 @@
     background-color:#ff7315;
   }
   #skill {
-    background-color:#3a3535;
+    background-color:rgba(58, 53, 53,0.5);
   }
   
   html {
@@ -12,8 +12,9 @@
   }
   
   html, body {
-    background-image:url(javascriptbanner.png);
+    background-image:url(background-laptop.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 100%;
     color:white;
   }
@@ -53,7 +54,7 @@
     max-width:570px;
   }
   #projects {
-    background-color:#3a3535;
+    background-color:rgba(252, 123, 3, 0.15)
   }
   .card-img-top {
     min-height:270px;
@@ -66,7 +67,7 @@
     text-align:center;
   }
   #about {
-    background-color:#232020;
+    background-color:rgba(58, 53, 53,0.5);
     color:white;
   }
   li, .list-group-item, active {
@@ -111,3 +112,9 @@
  }
 }
   
+#commerce-div {
+  display:none;
+}
+#canvas-div {
+  display:none;
+}
