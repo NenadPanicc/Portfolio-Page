@@ -36,11 +36,11 @@ let modalImg = document.getElementById("modal-img")
 document.addEventListener("click",(e) => {
     switch(event.target.id) {
         case "js":
-                modalImg.src = "img/js sertifikat.PNG"
+                modalImg.src = "img/js sertifikat.png"
                 modal.style.display = "block"
             break;
         case "web-design":
-            modalImg.src = "img/web des sertifikat.PNG"
+            modalImg.src = "img/web des sertifikat.png"
             modal.style.display = "block"
             break;
         case "exit":
