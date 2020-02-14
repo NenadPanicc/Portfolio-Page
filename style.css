@@ -1,0 +1,141 @@
+
+
+#main-title {
+    background-color:#ff7315;
+  }
+  #skill {
+    background-color:rgba(58, 53, 53,0.5);
+  }
+  
+  html {
+    scroll-behavior:smooth;
+  }
+  
+  html, body {
+    background-image:url(img/background-laptop.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    color:white;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a#web-design:hover,#js:hover {
+    color:orange;
+    text-decoration: none;
+  }
+  /*background-color: #FAACA8;
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);*/
+  
+  #navbar {
+    background-color:#232020;
+  }
+  #welcome-section {
+      
+   min-height: 100%;
+    color:white;
+  }
+  .shadow {
+    border-bottom:1px solid  #ff7315 ;
+    padding:30px;
+  }
+  
+  #welcome-text {
+    text-align:center;
+    margin-top:20%;
+    line-height:40px;
+  }
+  #who-i-am {
+    text-align:center;
+    color:#ff7315;
+  }
+  .project-title {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:50px;
+    color:white;
+    border-bottom: 3px solid #ff7315;
+    padding-bottom: 15px;
+    max-width:570px;
+  }
+  #projects {
+    background-color:rgba(252, 123, 3, 0.15)
+  }
+  .card-img-top {
+    min-height:270px;
+    max-height:270px;
+  }
+  hr {
+    background-color:#ff7315
+  }
+  .link-container {
+    text-align:center;
+  }
+  #about {
+    background-color:rgba(58, 53, 53,0.5);
+    color:white;
+  }
+  li, .list-group-item, active {
+    background-color:#3a3535;
+  }
+  .button {
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-weight: bold;
+    font-size:15px;
+    border-radius: 5px;
+    background-color: #232020;
+    color:#ff7315;
+    border-color:#ff7315;
+    width:100%;
+  }
+  .button:hover {
+    background-color: #ff7315;
+    color:#3a3535;
+
+  }
+  @media  (max-width:630px) {
+    #welcome-text {
+      font-size:60px;
+    }
+    #who-i-am {
+      font-size:25px;
+    }
+  }
+  @media (max-width:769px) {
+    .card {
+      max-width:400px;
+      display:block;
+      margin-right:auto;
+      margin-left:auto;
+    }
+  }
+@media (max-width:375px){
+ #welcome-text {
+   line-height: 50px;
+ }
+}
+  
+#commerce-div {
+  display:none;
+}
+#canvas-div {
+  display:none;
+}
+/*MODAL*/
+
+#modal {
+ background-color: #232020;
+ width: 100%;
+ height:720px;
+ z-index: 2;
+ display:none
+}
+#modal-img {
+  width:90%;
+  margin:5%;
+}
